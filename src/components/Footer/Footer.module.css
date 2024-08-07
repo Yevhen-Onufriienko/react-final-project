@@ -31,6 +31,10 @@
 .gridItem> :last-child {
   font-size: 40px;
   Line-height: 44px;
+  color: #282828;
+}
+.gridItem> :last-child:hover {
+  color: #0D50FF;
 }
 
 .gridItem address {
@@ -49,6 +53,7 @@
   justify-content: start;
   gap: 16px;
 }
+
 
 .icon {
   width: 43px;

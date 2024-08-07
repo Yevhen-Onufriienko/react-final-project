@@ -17,9 +17,9 @@ function Footer() {
           <div className={styles.gridItem}>
             <p>Socials</p>
             <div className={styles.iconsContainer}>
-              <Link to='https://www.instagram.com/' target="_blank"><img src={instagram} alt="instagram" />
+              <Link className={styles.svg_link} to='https://www.instagram.com/' target="_blank"><img src={instagram} alt="instagram" />
               </Link>
-              <Link to='https://web.whatsapp.com/' target="_blank"><img src={whatsapp} alt="whatsapp" />
+              <Link className={styles.svg_link} to='https://web.whatsapp.com/' target="_blank"><img src={whatsapp} alt="whatsapp" />
               </Link>
             </div>
           </div>

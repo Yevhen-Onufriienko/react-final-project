@@ -4,7 +4,7 @@
 
 .gridCategoriesContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 32px;
   margin-top: 30px;
   z-index: 10;
@@ -70,7 +70,7 @@
   border: 1px solid #DDDDDD;
   border-radius:  6px;
   white-space: nowrap;
-  padding: 6px 16px;
+  padding: 9px 16px;
 }
 
 .titleBlockButton:hover {

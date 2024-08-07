@@ -17,10 +17,12 @@ import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import store from "./redux/store";
 import DataLoader from "./components/DataLoader/DataLoader";
 
+
 import "./index.css";
 
 function App() {
   return (
+    <div className="App">
     <ReduxProvider store={store}>
       <BrowserRouter>
         <Header />
@@ -44,7 +46,8 @@ function App() {
         <ConnectedModal />
         <DataLoader />
       </BrowserRouter>
-    </ReduxProvider>
+      </ReduxProvider>
+      </div>
   );
 }
 

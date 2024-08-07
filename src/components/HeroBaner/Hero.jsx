@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="hero_baner">
             <div className="baber_content">
-            <h2 className="baner_title">Amazing Discounts on Pets Products!</h2>
+            <h2 className="baner_title">Amazing Discounts on <br />Pets Products!</h2>
             <CheckOutButton />
             </div>
 

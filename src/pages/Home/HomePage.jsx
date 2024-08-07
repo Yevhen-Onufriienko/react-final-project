@@ -4,6 +4,7 @@ import Title from "../../components/Title/Title";
 import ProductContainer from "../../components/ProductContainer/ProductContainer";
 import Hero from "../../components/HeroBaner/Hero";
 import CategoriesContainer from "../../components/CategoriesContainer/CategoriesContainer";
+import DiscountForm from "../../components/DiscountForm/DiscountForm"
 
 export default function HomePage() {
   const dispatch = useDispatch();
@@ -16,7 +17,7 @@ export default function HomePage() {
   return (
     <div>
 
-      <Title className="Hello" tag="h2">
+      {/* <Title className="Hello" tag="h2">
         Home Page
       </Title>
       <button
@@ -25,10 +26,12 @@ export default function HomePage() {
         }}
       >
         Show modal
-      </button>
+      </button> */}
       <Hero />
       <CategoriesContainer />
-      <ProductContainer products={discontProducts.slice(0, 4)} />
+      <DiscountForm />
+      <ProductContainer />
+      {/* <ProductContainer products={discontProducts.slice(0, 4)} /> */}
     </div>
   );
 }
