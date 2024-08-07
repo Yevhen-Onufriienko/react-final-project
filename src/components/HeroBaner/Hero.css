@@ -1,0 +1,30 @@
+.hero_baner {
+  background-image: url("../../assets/HeroBaner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 600px;
+  top: 128px;
+}
+.baber_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #fff;
+  position: absolute;
+  margin-left: 40px;
+}
+.baner_title {
+    margin: 0;
+  font-family: Montserrat;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 105.6px;
+  text-align: left;
+  color: #ffffff;
+    margin-top: 80px;
+  margin-bottom: 40px;
+}
+
