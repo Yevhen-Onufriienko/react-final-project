@@ -8,7 +8,7 @@ import Filter from "../../../components/FilterContainer/Filter/Filter";
 import DiscountedItems from "../../../components/FilterContainer/DiscountedItems/DiscountedItems";
 import SelectSort from "../../../components/FilterContainer/SelectSort/SelectSort";
 import styles from "./AllProductsPage.module.css";
-import API_URL from '../../../utils/api';
+import API_URL from '../../../api';
 
 function AllProductsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -85,7 +85,7 @@ function AllProductsPage() {
   );
 
   return (
-    <div className="globalContainer">
+    <div className="Container">
       <div className={styles.allProductsPage}>
         <Breadcrumbs
           items={[

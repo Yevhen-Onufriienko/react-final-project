@@ -6,6 +6,7 @@
 
 .filterPrice span {
   font-weight: 600;
+color: #282828;;
 }
 
 .filterPrice input {
@@ -17,4 +18,5 @@
   padding: 0 8px 0 16px;
   border-radius: 6px;
   border: 1px solid #DDDDDD;
+  background: none;
 }

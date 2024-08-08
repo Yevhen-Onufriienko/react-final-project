@@ -6,7 +6,7 @@ import Four from '../../assets/four.svg';
 
 const NotFoundPage = () => {
   return (
-    <div className="globalContainer">
+    <div className="Container">
       <div className={styles.pageNotFoundContainer}>
         <div className={styles.imageContainer}>
           <img src={Four} alt="404" className={styles.image} />
