@@ -16,22 +16,10 @@ export default function HomePage() {
 
   return (
     <div>
-
-      {/* <Title className="Hello" tag="h2">
-        Home Page
-      </Title>
-      <button
-        onClick={() => {
-          dispatch(openAndCloseModal({ title: "Title", content: "Content" }));
-        }}
-      >
-        Show modal
-      </button> */}
       <Hero />
       <CategoriesContainer />
       <DiscountForm />
       <ProductContainer />
-      {/* <ProductContainer products={discontProducts.slice(0, 4)} /> */}
     </div>
   );
 }

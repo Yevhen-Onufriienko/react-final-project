@@ -84,35 +84,3 @@ grid-template-columns: repeat(2, 1fr);
 
 }
 
-
-/* .ProductContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 32px;
-
-    @media (min-width: 450px) {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    @media (min-width: 1024px) {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    @media (min-width: 1200px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-.ProductCard {
-
-}
-
-.ProductTop {}
-
-.ProductTop img {
-    width: 100%;
-    height: 284px;
-    object-fit: cover;
-}
-
-.ProductBottom {} */

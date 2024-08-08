@@ -23,11 +23,5 @@ export default function DataLoader() {
     return () => clearInterval(intervalId);
   }, [dispatch]);
 
-  // Обнови данные с сервера при изменении URL
-  // useEffect(() => {
-  //   console.log("Location changed:", location.pathname);
-  //   dispatch(fetchProducts());
-  // }, [location, dispatch]);
-
   return null;
 }
